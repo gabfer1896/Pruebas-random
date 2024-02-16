@@ -18,6 +18,6 @@ jobs:
           python-version: '3.11'
           
       - name: Run Scrip maybe?
-        uses: ./prueba.py
+        run: python ./prueba.py
         
     
