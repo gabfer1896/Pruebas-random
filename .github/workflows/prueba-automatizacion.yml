@@ -2,7 +2,7 @@ name: Pruebita
 
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '2 * * * *'
 
 jobs:
   build:
@@ -18,6 +18,6 @@ jobs:
           python-version: '3.11'
           
       - name: Run Scrip maybe?
-        run: python ./prueba.py
+        run: python ./prueba/prueba.py
         
     
